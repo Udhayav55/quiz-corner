@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Questions problems on trains</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on Problems on Trains</b></h3>
+		<form name="myform">
+Q1.A train is 100 meter long and is running at the speed of 30 km per hour. Find the time it will take to pass a man standing at a crossing.<br>
+<input type="radio" name="q1" value="a">10 seconds</br>
+<input type="radio" name="q1" value="b">12 seconds</br>
+<input type="radio" name="q1" value="c">14 seconds</br><br>
+Q2.A train is moving at a speed of 132 km/hour. If the length of the train is 110 meters, how long will it take to cross a railway platform 165 meters long.<br>
+<input type="radio" name="q2" value="a">7.5 second</br>
+<input type="radio" name="q2" value="b">7 second</br>
+<input type="radio" name="q2" value="c">8 second</br><br>
+Q3.In what time will a train 100 meters long cross an electric pole, if its speed is 144 km/hr <br>
+<input type="radio" name="q3" value="a">3 second</br>
+<input type="radio" name="q3" value="b">2.5 second</br>
+<input type="radio" name="q3" value="c">5 second</br><br>
+Q4.How long does a train 110 meters long running at the speed of 72 km/hour take to cross a bridge 132 meters in length ?<br>
+<input type="radio" name="q4" value="a">10 seconds</br>
+<input type="radio" name="q4" value="b">8 seconds</br>
+<input type="radio" name="q4" value="c">12.1 seconds</br><br>
+Q5.A train is 360 meter long is running at a speed of 45 km/hour. In what time will it pass a bridge of 140 meter length.<br>
+<input type="radio" name="q5" value="a">20 seconds</br>
+<input type="radio" name="q5" value="b">30 seconds</br>
+<input type="radio" name="q5" value="c">40 seconds</br><br>
+Q6.A train running at the speed of 60 km/hr crosses a pole in 9 seconds. Find the length of the train.<br>
+<input type="radio" name="q6" value="a">150 meter</br>
+<input type="radio" name="q6" value="b">145 meter</br>
+<input type="radio" name="q6" value="c">155 meter</br><br>
+Q7.Two trains are running in opposite directions in the same speed. The length of each train is 120 meter. If they cross each other in 12 seconds, the speed of each train (in km/hr) is<br>
+<input type="radio" name="q7" value="a">30 km</br>
+<input type="radio" name="q7" value="b">36 km</br>
+<input type="radio" name="q7" value="c">90 km</br><br>
+Q8. A train, 800 meter long is running with a speed of 78 km/hr. It crosses a tunnel in 1 minute. What is the length of the tunnel ?<br>
+<input type="radio" name="q8" value="a">650 meters</br>
+<input type="radio" name="q8" value="b">555 meters</br>
+<input type="radio" name="q8" value="c">500 meters</br><br>
+Q9.How many seconds will a 500 meter long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr<br>
+<input type="radio" name="q9" value="a">25 seconds</br>
+<input type="radio" name="q9" value="b">30 seconds</br>
+<input type="radio" name="q9" value="c">35 seconds</br><br>
+Q10.A jogger running at 9 kmph alongside a railway track is 240 metres ahead of the engine of a 120 metre long train running at 45 kmph in the same direction. In how much time will the train pass the jogger ?
+<br>
+<input type="radio" name="q10" value="a">30 seconds</br>
+<input type="radio" name="q10" value="b">36 seconds</br>
+<input type="radio" name="q10" value="c">32 seconds</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="b")
+		c++;
+	if(q2=="a")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="c")
+		c++;
+	if(q5=="c")
+		c++;
+    if(q6=="a")
+		c++;
+	if(q7=="b")
+		c++;
+	if(q8=="c")
+		c++;
+	if(q9=="b")
+		c++;
+	if(q10=="b")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

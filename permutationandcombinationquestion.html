@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on Permutation and Combination</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on Permutation and Combination</b></h3>
+		<form name="myform">
+Q1.A boy has nine trousers and 12 shirts. In how many different ways can he select a trouser and a shirt?<br>
+<input type="radio" name="q1" value="a">21</br>
+<input type="radio" name="q1" value="b">12</br>
+<input type="radio" name="q1" value="c">108</br><br>
+Q2.How many three letter words are formed using the letters of the word TIME?<br>
+<input type="radio" name="q2" value="a">12</br>
+<input type="radio" name="q2" value="b">24</br>
+<input type="radio" name="q2" value="c">20</br><br>
+Q3.Using all the letters of the word "NOKIA", how many words can be formed, which begin with N and end with A? <br>
+<input type="radio" name="q3" value="a">3</br>
+<input type="radio" name="q3" value="b">24</br>
+<input type="radio" name="q3" value="c">6</br><br>
+Q4.The number of arrangements that can be made with the letters of the word MEADOWS so that the vowels occupy the even places? <br>
+<input type="radio" name="q4" value="a">720</br>
+<input type="radio" name="q4" value="b">144</br>
+<input type="radio" name="q4" value="c">120</br><br>
+Q5.How many four digit numbers can be formed using the digits {1, 3, 4, 5, 7,9}(repetition of digits is not allowed)? <br>
+<input type="radio" name="q5" value="a">360</br>
+<input type="radio" name="q5" value="b">60</br>
+<input type="radio" name="q5" value="c">300</br><br>
+Q6.How many four digit even numbers can be formed using the digits {2, 3, 5, 1, 7, 9}<br>
+<input type="radio" name="q6" value="a">100</br>
+<input type="radio" name="q6" value="b">60</br>
+<input type="radio" name="q6" value="c">360</br><br>
+Q7.In how many ways can three consonants and two vowels be selected from the letters of the word "TRIANGLE"?<br>
+<input type="radio" name="q7" value="a">25</br>
+<input type="radio" name="q7" value="b">20</br>
+<input type="radio" name="q7" value="c">30</br><br>
+Q8. In a class there are 20 boys and 25 girls. In how many ways can a boy and a girl be selected?<br>
+<input type="radio" name="q8" value="a">400</br>
+<input type="radio" name="q8" value="b">500</br>
+<input type="radio" name="q8" value="c">600</br><br>
+Q9.A question paper consists of five problems, each problem having three internal choices. In how many ways can a candidate attempt one or more problems?<br>
+<input type="radio" name="q9" value="a">1023</br>
+<input type="radio" name="q9" value="b">511</br>
+<input type="radio" name="q9" value="c">750</br><br>
+Q10.A delegation of 5 members has to be formed from 3 ladies and 5 gentlemen. In how many ways the delegation can be formed, if 2 particular ladies are always included in the delegation?<br>
+<input type="radio" name="q10" value="a">42</br>
+<input type="radio" name="q10" value="b">20</br>
+<input type="radio" name="q10" value="c">40</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="c")
+		c++;
+	if(q2=="b")
+		c++;
+	if(q3=="c")
+		c++;
+	if(q4=="b")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="b")
+		c++;
+	if(q7=="c")
+		c++;
+	if(q8=="b")
+		c++;
+	if(q9=="a")
+		c++;
+	if(q10=="b")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

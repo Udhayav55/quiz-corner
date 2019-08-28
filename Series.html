@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Series</title>
+	</head>
+	<body>
+		<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    
+}
+
+.w3-bar .w3-button {
+    padding: 10px;
+}
+</style>
+<body style="background-color: lightcyan">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+  
+    <!-- Right-sided navbar links -->
+   <div class="w3-right w3-hide-small">
+                <a href="homepage.html" class="w3-bar-item w3-button">HOME</a>
+                <a href="About.html" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="quants.html"class="w3-bar-item w3-button">QUANTITATIVE APTITUDE</a>
+                <a href="Logical.html" class="w3-bar-item w3-button">LOGICAL</a>
+                <a href="verbal.html" class="w3-bar-item w3-button">VERBAL</a>
+                <a href="contact.html"  class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#quants" onclick="w3_close" class="w3-bar-item w3-button">QUANTITATIVE APTITUDE</a>
+  <a href="#logical" onclick="w3_close()" class="w3-bar-item w3-button">LOGICAL REASONING</a>
+  <a href="#verbal" onclick="w3_close()" class="w3-bar-item w3-button">VERBAL REASONING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<br>
+
+</br>
+<h1 align="center"><b> Basic concepts of Series
+        </b></h1>
+
+		<p align="left">
+            
+        Different types of Number Series:<br>
+The most common patterns followed by number series are:<br>
+->Series consisting of Perfect Squares:<br>
+A series based on Perfect squares is most of the times based on the perfect squares of the numbers in a specific order and generally one of the numbers is missing in this type of series.<br>
+Example:324, 361, 400, 441,?<br>
+Sol: 324 = 182 , 361 = 192, 400 = 202, 441 = 212, 484 = 222
+->Perfect Cube Series:<br>
+It is based on the cubes of numbers in a particular order and one of the  numbers is missing in the series.<br>
+Example:512, 729, 1000,?<br>
+Sol:83, 93, 103, 113<br>
+->Geometric Series:<br>
+It is based on either descending or ascending order of numbers and each successive number is obtained by dividing or multiplying the previous number by a specific number.<br>
+Example:4, 36, 324, 2916?<br>
+Sol:4 x 9 = 36, 36 x 9 = 324, 324 x 9 = 2916, 2916 x 9 = 26244.<br>
+->Arithmetic Series:<br>
+It consists of a series in which the next term is obtained by adding/subtracting a constant number to its previous term.<br>
+Example: 4, 9, 14, 19, 24, 29, 34 in which the number to be added to get the new number is 5. Now, we get an arithmetic sequence 2,3,4,5.<br>
+->Two-stage Type Series:<br>
+In a two step Arithmetic series, the differences of consecutive numbers themselves form an arithmetic series.<br>
+Example: 1, 3, 6, 10, 15.....<br>
+Sol:3 - 1 = 2, 6 - 3 = 3, 10 - 6 = 4, 15 - 10 = 5....<br>
+Now, we get an arithmetic sequence 2, 3, 4, 5<br>
+->Mixed Series:<br>
+This particular type of series may have more than one pattern arranged in a single series or it may have been created according to any of the unorthodox rules.<br>
+Example:10, 22, 46, 94, 190,?<br>
+Sol:<br>
+10 x 2 = 20 +2 = 22,<br>
+22 x 2 = 44 + 2 = 46,<br>
+46 x 2 = 92 + 2 = 94,<br>
+94 x 2 = 188 + 2 = 190,<br>
+190 x 2 = 380 + 2 = 382.<br>
+So the missing number is 382.<br>
+->Arithmetico –Geometric Series :<br>
+As the name suggests, Arithmetico –Geometric series is formed by a peculiar combination of Arithmetic and Geometric series. An important property of Arithmetico- Geometric series is that the differences of consecutive terms are in Geometric Sequence.<br>
+Example:1, 4, 8, 11, 22, 25, ?<br>
+Sol :Series Type +3 , X2 ( i.e Arithmetic and Geometric Mixing)
+1 + 3 = 4, 4 X 2 = 8, 8 + 3 = 11, 11 X 2 = 22, 22 + 3 = 25, 25 X 2 = 50<br>
+->Geometrico - Arithmetic Series is the reverse of Arithmetico - Geometric Series. The differences of suggestive terms are in Arithmetic Series.<br>
+Example: 1, 2, 6, 36, 44, 440, ?<br>
+Sol :Series Type - X 2, + 4, X 6, +8 , X 10
+1 X 2 = 2, 2 + 4 = 6, 6 X 6 = 36, 36+ 8 = 44, 44 X 10 = 440, 440 + 12 = 452<br>
+->Twin/Alternate Series :<br>
+As the name of the series specifies, this type of series may consist of two series combined into a single series. The alternating terms of this series may form an independent series in itself.<br>
+Example: 3, 4, 8, 10, 13, 16 ? ?<br>
+Sol: As we can see, there are two series formed<br>
+Series 1 : 3, 8, 13 with a common difference of 5<br>
+Series 2 : 4, 10, 16 with a common difference of 6<br>
+So, next two terms of the series should be 18 and 22 respectively.
+		</p>
+		<span style="color:red"><h6 align ="center"><b><a href="seriesquestion.html">Take Test</a></b></h6></span>
+	</body>
+</html>
+		

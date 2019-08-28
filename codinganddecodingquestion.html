@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>Questions on Coding and Decoding</title>
+	</head>
+	<body style="background-color: cornsilk" >
+	<h3><b>Questions based on coding and decoding</b></h3>
+		<form name="myform">
+Q1.If in a certain language, MADRAS is coded as NBESBT, how is BOMBAY coded in that language ? <br>
+<input type="radio" name="q1" value="a">CPNCBZ</br>
+<input type="radio" name="q1" value="b">CPOCBZ</br>
+<input type="radio" name="q1" value="c">CPNCBX</br><br>
+Q2.In a certain code, COMPUTER is written as RFUVQNPC. How is MEDICINE written in the same code ? <br>
+<input type="radio" name="q2" value="a">EOJDJEFM</br>
+<input type="radio" name="q2" value="b">EOJDEJFM</br>
+<input type="radio" name="q2" value="c">MFEJDJOE</br><br>
+Q3.In a certain code, TRIPPLE is written as SQHOOKD. How is DISPOSE written in that code ? <br>
+<input type="radio" name="q3" value="a">DSOESPI</br>
+<input type="radio" name="q3" value="b">CHRONRD </br>
+<input type="radio" name="q3" value="c">ESJTPTF</br><br>
+Q4.In a certain code, RIPPLE is written as 613382 and LIFE is written as 8192. How is PILLER written in that code ? <br>
+<input type="radio" name="q4" value="a">318286</br>
+<input type="radio" name="q4" value="b">618826</br>
+<input type="radio" name="q4" value="c">318826 </br><br>
+Q5.If DELHI is coded as 73541 and CALCUTTA as 82589662, how can CALICUT be coded ? <br>
+<input type="radio" name="q5" value="a">5279431 </br>
+<input type="radio" name="q5" value="b">5978213</br>
+<input type="radio" name="q5" value="c">8251896</br><br>
+Q6.In a certain code language,<br>
+ '134' means 'good and tasty';<br>
+ '478' means 'see good pictures'  and<br>
+ '729' means 'pictures are faint'.<br>
+Which of the following digits stands for 'see'?<br>
+<input type="radio" name="q6" value="a">9</br>
+<input type="radio" name="q6" value="b">2</br>
+<input type="radio" name="q6" value="c">8</br><br>
+
+Q7.If FRIEND is coded as HUMJTK, how is CANDLE written in that code ?<br>
+<input type="radio" name="q7" value="a"> EDRIRL</br>
+<input type="radio" name="q7" value="b"> DEQJQM</br>
+<input type="radio" name="q7" value="c"> DCQHQK</br><br>
+Q8.If Z = 52 and ACT = 48, then BAT will be equal to<br>
+<input type="radio" name="q8" value="a">39 </br>
+<input type="radio" name="q8" value="b">44</br>
+<input type="radio" name="q8" value="c">46</br><br>
+Q9.In a certain code, MONKEY is written as XDJMNL. How is TIGER written in that code ?<br>
+<input type="radio" name="q9" value="a">RSAFD</br>
+<input type="radio" name="q9" value="b">HFDSQ</br>
+<input type="radio" name="q9" value="c">QDFHS</br><br>
+Q10.If Z= 2197 and R= 729. How would J be written in that code?<br>
+<input type="radio" name="q10" value="a">216</br>
+<input type="radio" name="q10" value="b">512</br>
+<input type="radio" name="q10" value="c">125</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="a")
+		c++;
+	if(q2=="a")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="c")
+		c++;
+	if(q5=="c")
+		c++;
+    if(q6=="c")
+		c++;
+	if(q7=="a")
+		c++;
+	if(q8=="c")
+		c++;
+	if(q9=="c")
+		c++;
+	if(q10=="c")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

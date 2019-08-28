@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Calendars</title>
+	</head>
+	<body>
+		<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    
+}
+
+.w3-bar .w3-button {
+    padding: 10px;
+}
+</style>
+<body style="background-color: lightcyan">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+  
+    <!-- Right-sided navbar links -->
+   <div class="w3-right w3-hide-small">
+                <a href="homepage.html" class="w3-bar-item w3-button">HOME</a>
+                <a href="About.html" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="quants.html"class="w3-bar-item w3-button">QUANTITATIVE APTITUDE</a>
+                <a href="Logical.html" class="w3-bar-item w3-button">LOGICAL</a>
+                <a href="verbal.html" class="w3-bar-item w3-button">VERBAL</a>
+                <a href="contact.html"  class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#quants" onclick="w3_close" class="w3-bar-item w3-button">QUANTITATIVE APTITUDE</a>
+  <a href="#logical" onclick="w3_close()" class="w3-bar-item w3-button">LOGICAL REASONING</a>
+  <a href="#verbal" onclick="w3_close()" class="w3-bar-item w3-button">VERBAL REASONING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<br>
+<h1 align="center"><b> Basic concepts of Calendars
+        </b></h1>
+</br>
+
+		<p align="left">
+    
+=>Odd Days:<br>
+
+We are supposed to find the day of the week on a given date.<br>
+
+For this, we use the concept of 'odd days'.<br>
+
+In a given period, the number of days more than the complete weeks are called odd days.<br>
+
+=>Leap Year:<br>
+
+(i). Every year divisible by 4 is a leap year, if it is not a century.<br>
+
+(ii). Every 4th century is a leap year and no other century is a leap year.<br>
+
+Examples:<br>
+
+Each of the years 1948, 2004, 1676 etc. is a leap year.<br>
+
+Each of the years 400, 800, 1200, 1600, 2000 etc. is a leap year.<br>
+
+=>Ordinary Year:<br>
+
+The year which is not a leap year is called an ordinary years. An ordinary year has 365 days.<br>
+
+=>Counting of Odd Days:<br>
+
+1 ordinary year = 365 days = (52 weeks + 1 day)<br>
+
+ 1 ordinary year has 1 odd day.<br>
+
+1 leap year = 366 days = (52 weeks + 2 days)<br>
+
+ 1 leap year has 2 odd days.<br>
+
+100 years = 76 ordinary years + 24 leap years<br>
+
+  = (76 x 1 + 24 x 2) odd days = 124 odd days.<br>
+
+  = (17 weeks + days)  5 odd days.<br>
+
+ Number of odd days in 100 years = 5.<br>
+
+Number of odd days in 200 years = (5 x 2)  3 odd days.<br>
+
+Number of odd days in 300 years = (5 x 3)  1 odd day.<br>
+
+Number of odd days in 400 years = (5 x 4 + 1)  0 odd day.<br>
+
+Similarly, each one of 800 years, 1200 years, 1600 years, 2000 years etc. has 0 odd days.<br>
+		</p>
+		<span style="color:red"><h6 align ="center"><b><a href="calendarquestion.html">Take Test</a></b></h6></span>
+	</body>
+</html>
+		

@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on ages</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on ages</b></h3>
+		<form name="myform">
+Q1.Father is four times more than the age of his daughter. If after 5 years, he would be four times of daughter’s age, then further after 5 years, how many times he would be of his daughter’s age?<br>
+<input type="radio" name="q1" value="a">2.5 times</br>
+<input type="radio" name="q1" value="b">2 times</br>
+<input type="radio" name="q1" value="c">4 times</br><br>
+Q2.What is Aman's present age, if after 20 years his age will be 10 times his age 10 years back?<br>
+<input type="radio" name="q2" value="a">13.3 years</br>
+<input type="radio" name="q2" value="b">6.2 years</br>
+<input type="radio" name="q2" value="c">12.2 years</br><br>
+Q3.Nisha is 15 years elder to Romi. If 5 years ago, Nisha was 3 times as old as Romi, then find Nisha’s present age. <br>
+<input type="radio" name="q3" value="a">25 years</br>
+<input type="radio" name="q3" value="b">27.5 years</br>
+<input type="radio" name="q3" value="c">32 years</br><br>
+Q4.Ten years ago, the age of mother was three times the age of her son. After ten years, mother’s age will be twice that of his son. Find the ratio of their present ages.<br>
+<input type="radio" name="q4" value="a">3:5</br>
+<input type="radio" name="q4" value="b">6:2</br>
+<input type="radio" name="q4" value="c">7:3</br><br>
+Q5.Saransh is 50 years old and Nazma is 40 years old. How long ago was the ratio of their ages 3:2? <br>
+<input type="radio" name="q5" value="a">20 years</br>
+<input type="radio" name="q5" value="b">15 years</br>
+<input type="radio" name="q5" value="c">18 years</br><br>
+Q6.The ratio of the present ages of Pranav and Qureshi is 4:5. Five years ago, the ratio of their ages was 7:9. Find their present ages? (In years)<br>
+<input type="radio" name="q6" value="a">40,50</br>
+<input type="radio" name="q6" value="b">20,25</br>
+<input type="radio" name="q6" value="c">18,20</br><br>
+Q7.Dinesh is younger to Roshan by 9 years. If their ages are in the respective ratio of 4:5, how old is Dinesh?<br>
+<input type="radio" name="q7" value="a">23 years</br>
+<input type="radio" name="q7" value="b">36 years</br>
+<input type="radio" name="q7" value="c">cannot be determined</br><br>
+Q8. The ratio of Sara’s age 4 years ago and Vaishali’s age after 4 years is 1: 1. Presently, the ratio of their ages is 5: 3. Find the ratio between Sara’s age 4 years hence and Vaishali’s age 4 years ago.<br>
+<input type="radio" name="q8" value="a">1:3</br>
+<input type="radio" name="q8" value="b">3:1</br>
+<input type="radio" name="q8" value="c">4:2</br><br>
+Q9.The total age of A and B is 12 years more than the total age of B and C. C is how many years younger than A ?<br>
+<input type="radio" name="q9" value="a">16</br>
+<input type="radio" name="q9" value="b">12</br>
+<input type="radio" name="q9" value="c">14</br><br>
+Q10.In 10 years, A will be twice as old as B was 10 years ago. If A is now 9 years older than B, the present age of B is :<br>
+<input type="radio" name="q10" value="a">19</br>
+<input type="radio" name="q10" value="b">39</br>
+<input type="radio" name="q10" value="c">29</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="a")
+		c++;
+	if(q2=="a")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="c")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="a")
+		c++;
+	if(q7=="b")
+		c++;
+	if(q8=="b")
+		c++;
+	if(q9=="b")
+		c++;
+	if(q10=="b")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

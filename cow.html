@@ -1,0 +1,150 @@
+<html>
+	<head>
+		<title>Questions on Ordering of Sentences </title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on ordering of sentences</b></h3>
+		<form name="myform">
+Q1.<br>
+When he
+P :	did not know<br>
+Q :	he was nervous and<br>
+R :	heard the hue and cry at midnight<br>
+S :	what to do<br>
+The Proper sequence should be: <br>
+<input type="radio" name="q1" value="a">RQPS</br>
+<input type="radio" name="q1" value="b">QSPR </br>
+<input type="radio" name="q1" value="c">PQRS </br><br>
+Q2.<br>	
+It has been established that<br>
+P :	Einstein was<br>
+Q :	although a great scientist<br>
+R :	weak in arithmetic<br>
+S :	right from his school days<br>
+The Proper sequence should be: <br>
+<input type="radio" name="q2" value="a">RQPS</br>
+<input type="radio" name="q2" value="b">QPRS</br>
+<input type="radio" name="q2" value="c">RQPS</br><br>
+Q3.<br>
+Then<br>
+P :	it struck me<br>
+Q :	of course<br>
+R :	suitable it was<br>
+S :	how eminently<br>
+The Proper sequence should be: <br>
+<input type="radio" name="q3" value="a">SPQR</br>
+<input type="radio" name="q3" value="b">QSPR</br>
+<input type="radio" name="q3" value="c">PSQR</br><br>
+Q4.<br>
+I read an advertisement that said<br>
+P :	posh, air-conditioned<br>
+Q :	gentleman of taste<br>
+R :	are available for<br>
+S :	fully furnished rooms<br>
+The Proper sequence should be:<br>
+<input type="radio" name="q4" value="a">PSRQ</br>
+<input type="radio" name="q4" value="b">QSPR</br>
+<input type="radio" name="q4" value="c">SPQR</br><br>
+Q5.Since the beginning of history<br>
+P :	have managed to catch<br>
+Q :	the Eskimos and Red Indians<br>
+R :	by a very difficulty method<br>
+S :	a few specimens of this aquatic animal<br>
+The Proper sequence should be: <br>
+<input type="radio" name="q5" value="a">QPSR</br>
+<input type="radio" name="q5" value="b">RSQP</br>
+<input type="radio" name="q5" value="c">SQPR</br><br>
+Q6.<br>
+We must read<br>
+P :	if we want to absorb the fruits of great literature<br>
+Q :	but with concentration<br>
+R :	them not as we do cricket stories<br>
+S :	undefined<br>
+The proper sequence should be: <br>
+<input type="radio" name="q6" value="a">QPSR</br>
+<input type="radio" name="q6" value="b">PSQR</br>
+<input type="radio" name="q6" value="c">PRSQ</br><br>
+Q7.<br>
+Then the women<br>
+P :	lamenting their evil desire<br>
+Q :	that had brought<br>
+R :	wept loudly<br>
+S :	this sorrow upon them<br>
+The proper sequence should be:<br>
+<input type="radio" name="q7" value="a">RQPS</br>
+<input type="radio" name="q7" value="b">RPQS</br>
+<input type="radio" name="q7" value="c">PQSR</br><br>
+Q8.<br>
+I enclose<br>
+P :	and the postage<br>
+Q :	a postal order<br>
+R :	the price of books<br>
+S :	which will cover<br>
+The proper sequence should be:<br>
+<input type="radio" name="q8" value="a">RPSQ</br>
+<input type="radio" name="q8" value="b">QSPR</br>
+<input type="radio" name="q8" value="c">QSRP</br><br>
+Q9.<br>
+He was so kind and generous that<br>
+P :	he not only<br>
+Q :	made others do so<br>
+R :	but also<br>
+S :	helped them himself<br>
+The proper sequence should be:<br>
+<input type="radio" name="q9" value="a">PSRQ</br>
+<input type="radio" name="q9" value="b">SPQR</br>
+<input type="radio" name="q9" value="c">PRSQ</br><br>
+Q10.<br>
+It would<br>
+P :	appear from his statement<br>
+Q :	about the policy of management<br>
+R :	in dealing with the strike<br>
+S :	that he was quite in the dark<br>
+The proper sequence should be:<br>
+<input type="radio" name="q10" value="a">RPSQ</br>
+<input type="radio" name="q10" value="b">PSQR</br>
+<input type="radio" name="q10" value="c">RQPS</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+    if(q1=="a")
+		c++;
+	if(q2=="b")
+		c++;
+	if(q3=="c")
+		c++;
+	if(q4=="a")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="a")
+		c++;
+	if(q7=="b")
+		c++;
+	if(q8=="c")
+		c++;
+	if(q9=="a")
+		c++;
+	if(q10=="b")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

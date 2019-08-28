@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on boats and streams</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on Boats and Streams</b></h3>
+		<form name="myform">
+Q1.A man's speed with the current is 15 km/hr and the speed of the current is 2.5 km/hr. The man's speed against the current is:<br>
+<input type="radio" name="q1" value="a">8.5 km/hr</br>
+<input type="radio" name="q1" value="b">10 km/hr</br>
+<input type="radio" name="q1" value="c">12.5 km/hr</br><br>
+Q2.A motorboat, whose speed in 15 km/hr in still water goes 30 km downstream and comes back in a total of 4 hours 30 minutes. The speed of the stream (in km/hr) is:<br>
+<input type="radio" name="q2" value="a">10</br>
+<input type="radio" name="q2" value="b">6</br>
+<input type="radio" name="q2" value="c">5</br><br>
+Q3.In one hour, a boat goes 14 km/hr along the stream and 8 km/hr against the stream. The speed of the boat in still water (in km/hr) is: <br>
+<input type="radio" name="q3" value="a">12 km/hr</br>
+<input type="radio" name="q3" value="b"> 11 km/hr</br>
+<input type="radio" name="q3" value="c">10 km/hr</br><br>
+Q4.A man rows to a place 48 km distant and come back in 14 hours. He finds that he can row 4 km with the stream in the same time as 3 km against the stream. The rate of the stream is: <br>
+<input type="radio" name="q4" value="a">1 km/hr</br>
+<input type="radio" name="q4" value="b">2 km/hr</br>
+<input type="radio" name="q4" value="c">1.5 km/hr</br><br>
+Q5.A boatman goes 2 km against the current of the stream in 2 hour and goes 1 km along the current in 20 minutes. How long will it take to go 5 km in stationary water? <br>
+<input type="radio" name="q5" value="a">1 hr 15 min</br>
+<input type="radio" name="q5" value="b">2 hr 30 min</br>
+<input type="radio" name="q5" value="c">2 hr</br><br>
+Q6.A boat can travel with a speed of 22 km/hr in still water. If the speed of the stream is 5 km/hr, find the time taken by the boat to go 54 km downstream<br>
+<input type="radio" name="q6" value="a">1 hr</br>
+<input type="radio" name="q6" value="b">2 hr</br>
+<input type="radio" name="q6" value="c">3 hr</br><br>
+Q7. A boat running downstream covers a distance of 22 km in 4 hours while for covering the same distance upstream, it takes 5 hours. What is the speed of the boat in still water?<br>
+<input type="radio" name="q7" value="a">5 kmph</br>
+<input type="radio" name="q7" value="b">4.95 kmph</br>
+<input type="radio" name="q7" value="c">4 kmph</br><br>
+Q8.A man takes twice as long to row a distance against the stream as to row the same distance in favour of the stream. The ratio of the speed of the boat (in still water) and the stream is:<br>
+<input type="radio" name="q8" value="a">3:1</br>
+<input type="radio" name="q8" value="b">1:3</br>
+<input type="radio" name="q8" value="c">2:3</br><br>
+Q9.A boat takes 90 minutes less to travel 36 miles downstream than to travel the same distance upstream. If the speed of the boat in still water is 10 mph, the speed of the <br>
+<input type="radio" name="q9" value="a">2 mph</br>
+<input type="radio" name="q9" value="b">1 mph</br>
+<input type="radio" name="q9" value="c">3 mph</br><br>
+Q10.A man can row 4 kmph is still water. If the river is running at 2 kmph it takes 90 min to row to a place and back. How far is the place?<br>
+<input type="radio" name="q10" value="a">5 km</br>
+<input type="radio" name="q10" value="b">2.25 km</br>
+<input type="radio" name="q10" value="c">4 km</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="b")
+		c++;
+	if(q2=="c")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="a")
+		c++;
+	if(q5=="b")
+		c++;
+    if(q6=="b")
+		c++;
+	if(q7=="b")
+		c++;
+	if(q8=="a")
+		c++;
+	if(q9=="a")
+		c++;
+	if(q10=="b")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

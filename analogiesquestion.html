@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on Analogy</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on analogy</b></h3>
+		<form name="myform">
+Q1.Complete analogous pair: Cup : Lip :: Bird : ? <br>
+<input type="radio" name="q1" value="a">Bush</br>
+<input type="radio" name="q1" value="b">Grass</br>
+<input type="radio" name="q1" value="c">Beak</br><br>
+Q2.Complete analogous pair: Paw : Cat :: Hoof : ? <br>
+<input type="radio" name="q2" value="a">Elephant</br>
+<input type="radio" name="q2" value="b">Lamb</br>
+<input type="radio" name="q2" value="c">Horse</br><br>
+Q3.Complete analogous pair: Warm : Hot :: ? : Hilarious <br>
+<input type="radio" name="q3" value="a">Humid</br>
+<input type="radio" name="q3" value="b">Summer</br>
+<input type="radio" name="q3" value="c">Amusing</br><br>
+Q4.Complete analogous pair: Doctor : Nurse :: ? : Follower <br>
+<input type="radio" name="q4" value="a">Employer</br>
+<input type="radio" name="q4" value="b">Leader</br>
+<input type="radio" name="q4" value="c">Worker</br><br>
+Q5.Complete analogous pair: Clock : Time :: Thermometer : ? <br>
+<input type="radio" name="q5" value="a">Temperature</br>
+<input type="radio" name="q5" value="b">Radiation</br>
+<input type="radio" name="q5" value="c">Heat</br><br>
+Q6.Complete analogous pair: Moon : Satellite : : Earth : ?<br>
+<input type="radio" name="q6" value="a">Sun</br>
+<input type="radio" name="q6" value="b">Planet</br>
+<input type="radio" name="q6" value="c">SolarSystem</br><br>
+Q7. Complete analogous pair: Forecast : Future : : Regret : ?<br>
+<input type="radio" name="q7" value="a">Past</br>
+<input type="radio" name="q7" value="b">Present</br>
+<input type="radio" name="q7" value="c">Sins</br><br>
+Q8. Complete analogous pair: Influenza : Virus : : Typhoid : ?<br>
+<input type="radio" name="q8" value="a">Bacteria</br>
+<input type="radio" name="q8" value="b">Protozoa</br>
+<input type="radio" name="q8" value="c">Parasite</br><br>
+Q9. Complete analogous pair: Fear : Threat : : Anger : ?<br>
+<input type="radio" name="q9" value="a">Panic</br>
+<input type="radio" name="q9" value="b">Provocation</br>
+<input type="radio" name="q9" value="c">Force</br><br>
+Q10.Complete analogous pair: Melt : Liquid : : Freeze : ?<br>
+<input type="radio" name="q10" value="a">Solid</br>
+<input type="radio" name="q10" value="b">Crystal</br>
+<input type="radio" name="q10" value="c">Gas</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="c")
+     c++;
+	if(q2=="c")
+		c++;
+	if(q3=="c")
+		c++;
+	if(q4=="b")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="b")
+     c++;
+	if(q7=="a")
+		c++;
+	if(q8=="a")
+		c++;
+	if(q9=="b")
+		c++;
+	if(q10=="a")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on Simple Interest and Compound Interest</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on simple interest and compound interest </b></h3>
+		<form name="myform">
+Q1.A sum of money at simple interest amounts to 815 in 3 years and to 854 in 4 years. The sum is:<br>
+<input type="radio" name="q1" value="a">650</br>
+<input type="radio" name="q1" value="b">690</br>
+<input type="radio" name="q1" value="c">698</br><br>
+Q2.Mr. Thomas invested an amount of 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be 3508, what was the amount invested in Scheme B?<br>
+<input type="radio" name="q2" value="a">6400</br>
+<input type="radio" name="q2" value="b">6500</br>
+<input type="radio" name="q2" value="c">7200</br><br>
+Q3.A sum fetched a total simple interest of 4016.25 at the rate of 9 %.p.a. in 5 years. What is the sum? <br>
+<input type="radio" name="q3" value="a">4462.50</br>
+<input type="radio" name="q3" value="b">8032.50</br>
+<input type="radio" name="q3" value="c">8925</br><br>
+Q4.How much time will it take for an amount of 450 to yield 81 as interest at 4.5% per annum of simple interest? <br>
+<input type="radio" name="q4" value="a">3.5 years</br>
+<input type="radio" name="q4" value="b">4 years</br>
+<input type="radio" name="q4" value="c">4.5 years</br><br>
+Q5.Reena took a loan of 1200 with simple interest for as many years as the rate of interest. If she paid 432 as interest at the end of the loan period, what was the rate of interest? <br>
+<input type="radio" name="q5" value="a">6</br>
+<input type="radio" name="q5" value="b">18</br>
+<input type="radio" name="q5" value="c">3.6</br><br>
+Q6. Find the compound interest and the amount on Rs.8000 at 5% per annum for 3 years when C.I is reckoned yearly?<br>
+<input type="radio" name="q6" value="a">Rs.1261</br>
+<input type="radio" name="q6" value="b">Rs.1440</br>
+<input type="radio" name="q6" value="c">Rs.1185</br><br>
+Q7.Find out the C.I on Rs.5000 at 4% p.a. compound half-yearly for 1.5 years.<br>
+<input type="radio" name="q7" value="a">Rs.420.20</br>
+<input type="radio" name="q7" value="b">Rs.319.06</br>
+<input type="radio" name="q7" value="c">Rs.306.04</br><br>
+Q8.Rs.8000 become Rs.9261 in a certain interval of time at the rate of 5% per annum of C.I. Find the time?<br>
+<input type="radio" name="q8" value="a">3 years</br>
+<input type="radio" name="q8" value="b">6 years</br>
+<input type="radio" name="q8" value="c">4 years</br><br>
+Q9.Find the sum lend at C.I. at 5 p.c per annum will amount to Rs.441 in 2 years?<br>
+<input type="radio" name="q9" value="a">Rs.420</br>
+<input type="radio" name="q9" value="b">Rs.400</br>
+<input type="radio" name="q9" value="c">Rs.375</br><br>
+Q10.Find the least number of complete years in which a sum of money put out at 25% compound interest will be more than double of itself?<br>
+<input type="radio" name="q10" value="a">4 years</br>
+<input type="radio" name="q10" value="b">2 years</br>
+<input type="radio" name="q10" value="c">1 year</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="c")
+		c++;
+	if(q2=="a")
+		c++;
+	if(q3=="c")
+		c++;
+	if(q4=="b")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="a")
+		c++;
+	if(q7=="c")
+		c++;
+	if(q8=="a")
+		c++;
+	if(q9=="b")
+		c++;
+	if(q10=="a")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

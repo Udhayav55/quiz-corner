@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on Calenders</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on Calenders</b></h3>
+		<form name="myform">
+Q1.What was the day on 15th august 1947? <br>
+<input type="radio" name="q1" value="a">Sunday</br>
+<input type="radio" name="q1" value="b">Friday</br>
+<input type="radio" name="q1" value="c">Saturday</br><br>
+Q2.Today is Monday. After 61 days, it will be what day? <br>
+<input type="radio" name="q2" value="a">Saturday</br>
+<input type="radio" name="q2" value="b">Wednesday</br>
+<input type="radio" name="q2" value="c">Thursday</br><br>
+Q3.Calculate the number of odd days from starting till 8th June 2215. <br>
+<input type="radio" name="q3" value="a">8</br>
+<input type="radio" name="q3" value="b">3</br>
+<input type="radio" name="q3" value="c">4</br><br>
+Q4.Today is 1st August. The day of the week is Monday this is a leap year. What day of the week on this day after 3 years will be? <br>
+<input type="radio" name="q4" value="a">Wednesday</br>
+<input type="radio" name="q4" value="b">Thursday</br>
+<input type="radio" name="q4" value="c">Tuesday</br><br>
+Q5.The year next to 1988 having the same calendar as that of 1988 is <br>
+<input type="radio" name="q5" value="a">1993</br>
+<input type="radio" name="q5" value="b">1990</br>
+<input type="radio" name="q5" value="c">1995</br><br>
+Q6.The calendar for the year 2007 will be the same for the year:<br>
+<input type="radio" name="q6" value="a">2014</br>
+<input type="radio" name="q6" value="b">2018</br>
+<input type="radio" name="q6" value="c">2016</br><br>
+Q7.On 8th Dec, 2007 Saturday falls. What day of the week was it on 8th Dec, 2006?<br>
+<input type="radio" name="q7" value="a">Friday</br>
+<input type="radio" name="q7" value="b">Sunday</br>
+<input type="radio" name="q7" value="c">Saturday</br><br>
+Q8.January 1, 2008 is Tuesday. What day of the week lies on Jan 1, 2009?<br>
+<input type="radio" name="q8" value="a">Monday</br>
+<input type="radio" name="q8" value="b">Thursday</br>
+<input type="radio" name="q8" value="c">Wednesday</br><br>
+Q9.The last day of a century cannot be<br>
+<input type="radio" name="q9" value="a">Tuesday</br>
+<input type="radio" name="q9" value="b">Saturday</br>
+<input type="radio" name="q9" value="c">Thursday</br><br>
+Q10.What was the day of the week on 17th June, 1998?<br>
+<input type="radio" name="q10" value="a">Wednesday</br>
+<input type="radio" name="q10" value="b">Monday</br>
+<input type="radio" name="q10" value="c">Tuesday</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="b")
+		c++;
+	if(q2=="a")
+		c++;
+	if(q3=="c")
+		c++;
+	if(q4=="b")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="b")
+		c++;
+	if(q7=="a")
+		c++;
+	if(q8=="b")
+		c++;
+	if(q9=="a")
+		c++;
+	if(q10=="a")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

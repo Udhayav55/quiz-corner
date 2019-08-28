@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on Pipes and Cisterns</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on Pipes and Cisterns</b></h3>
+		<form name="myform">
+Q1.Three pipes A, B and C can fill a tank in 6 hours. After working at it together for 2 hours, C is closed and A and B can fill the remaining part in 7 hours. The number of hours taken by C alone to fill the tank is:<br>
+<input type="radio" name="q1" value="a">10</br>
+<input type="radio" name="q1" value="b">12</br>
+<input type="radio" name="q1" value="c">14</br><br>
+Q2.Two pipes A and B can fill a tank in 15 minutes and 20 minutes respectively. Both the pipes are opened together but after 4 minutes, pipe A is turned off. What is the total time required to fill the tank?<br>
+<input type="radio" name="q2" value="a">14 min. 40 sec</br>
+<input type="radio" name="q2" value="b">12 min. 30 sec</br>
+<input type="radio" name="q2" value="c">11 min. 45 sec</br><br>
+Q3.Three taps A,B and C can fill a tank in 12,15 and 20 hours respectively. If A is open all the time and B ,C are open for one hour each alternatively, the tank will be full in: <br>
+<input type="radio" name="q3" value="a">6 hrs</br>
+<input type="radio" name="q3" value="b">7 hrs</br>
+<input type="radio" name="q3" value="c">15.5 hrs</br><br>
+Q4.A tap can fill a tank in 6 hours. After half the tank is filled, three more similar taps are opened. What is the total time taken to fill the tank completely? <br>
+<input type="radio" name="q4" value="a">3 hrs 15 min</br>
+<input type="radio" name="q4" value="b">3 hrs 45 min</br>
+<input type="radio" name="q4" value="c">4 hrs 15 min</br><br>
+Q5.Two pipes can fill a tank in 20 and 24 minutes respectively and a waste pipe can empty 3 gallons per minute. All the three pipes working together can fill the tank in 15 minutes. The capacity of the tank is: <br>
+<input type="radio" name="q5" value="a">60 gallons</br>
+<input type="radio" name="q5" value="b">100 gallons</br>
+<input type="radio" name="q5" value="c">120 gallons</br><br>
+Q6. Two pipes A and B can separately fill a tank in 2 minutes and 15 minutes respectively. Both the pipes are opened together but 4 minutes after the start the pipe A is turned off. How much time will it take to fill the tank?<br>
+<input type="radio" name="q6" value="a">9 min</br>
+<input type="radio" name="q6" value="b">10 min</br>
+<input type="radio" name="q6" value="c">11 min</br><br>
+Q7.A cistern has a leak which would empty the cistern in 20 minutes. A tap is turned on which admits 4 liters a minute into the cistern, and it is emptied in 24 minutes. How many liters does the cistern hold?<br>
+<input type="radio" name="q7" value="a">480 liters</br>
+<input type="radio" name="q7" value="b">600 liters</br>
+<input type="radio" name="q7" value="c">720 liters</br><br>
+Q8.Two taps can separately fill a cistern 10 minutes and 15 minutes respectively and when the waste pipe is open, they can together fill it in 18 minutes. The waste pipe can empty the full cistern in?<br>
+<input type="radio" name="q8" value="a">7 min</br>
+<input type="radio" name="q8" value="b">9 min</br>
+<input type="radio" name="q8" value="c">13 min</br><br>
+Q9.Two pipes can separately fill a tank in 20 and 30 hours respectively. Both the pipes are opened to fill the tank but when the tank is full, a leak develops in the tank through which one-third of water supplied by both the pipes goes out. What is the total time taken to fill the tank?<br>
+<input type="radio" name="q9" value="a">18 hrs</br>
+<input type="radio" name="q9" value="b">16 hrs</br>
+<input type="radio" name="q9" value="c">15 hrs</br><br>
+Q10.Two pipes function simultaneously the reservoir will be filled in 12 hours. One pipe fills reservoir 10 hours faster than the other. How many hours does the faster pipe take to fill the reservoir?<br>
+<input type="radio" name="q10" value="a">25 hrs</br>
+<input type="radio" name="q10" value="b">20 hrs</br>
+<input type="radio" name="q10" value="c">28 hrs</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="c")
+		c++;
+	if(q2=="a")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="b")
+		c++;
+	if(q5=="c")
+		c++;
+    if(q6=="b")
+		c++;
+	if(q7=="a")
+		c++;
+	if(q8=="b")
+		c++;
+	if(q9=="b")
+		c++;
+	if(q10=="b")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<title>Permutation and Combination</title>
+	</head>
+	<body>
+		<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    
+}
+
+.w3-bar .w3-button {
+    padding: 10px;
+}
+</style>
+<body style="background-color: lightcyan">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+  
+    <!-- Right-sided navbar links -->
+   <div class="w3-right w3-hide-small">
+                <a href="homepage.html" class="w3-bar-item w3-button">HOME</a>
+                <a href="About.html" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="quants.html"class="w3-bar-item w3-button">QUANTITATIVE APTITUDE</a>
+                <a href="Logical.html" class="w3-bar-item w3-button">LOGICAL</a>
+                <a href="verbal.html" class="w3-bar-item w3-button">VERBAL</a>
+                <a href="contact.html"  class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#quants" onclick="w3_close" class="w3-bar-item w3-button">QUANTITATIVE APTITUDE</a>
+  <a href="#logical" onclick="w3_close()" class="w3-bar-item w3-button">LOGICAL REASONING</a>
+  <a href="#verbal" onclick="w3_close()" class="w3-bar-item w3-button">VERBAL REASONING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+    <br>
+    
+    </br>
+        <h1 align="center"><b>Basic formulas of Permutation and Combination</b></h1><br>
+		<p align="left">
+   Factorial Notation:<br>
+
+Let n be a positive integer. Then, factorial n, denoted n! is defined as:<br>
+
+n! = n(n - 1)(n - 2) ... 3.2.1.<br>
+
+Examples:<br>
+
+We define 0! = 1.<br>
+
+4! = (4 x 3 x 2 x 1) = 24.<br>
+
+5! = (5 x 4 x 3 x 2 x 1) = 120.<br>
+
+Permutations:<br>
+
+The different arrangements of a given number of things by taking some or all at a time, are called permutations.<br>
+
+Examples:<br>
+
+All permutations (or arrangements) made with the letters a, b, c by taking two at a time are (ab, ba, ac, ca, bc, cb).<br>
+
+All permutations made with the letters a, b, c taking all at a time are:
+( abc, acb, bac, bca, cab, cba)<br>
+
+Number of Permutations:<br>
+
+Number of all permutations of n things, taken r at a time, is given by:<br>
+
+            <b>nPr = n(n - 1)(n - 2) ... (n - r + 1) =	n!/(n - r)!</b>
+Examples:<br>
+
+6P2 = (6 x 5) = 30.<br>
+
+7P3 = (7 x 6 x 5) = 210.<br>
+
+Cr. number of all permutations of n things, taken all at a time = n!.<br>
+
+An Important Result:<br>
+
+If there are n subjects of which p1 are alike of one kind; p2 are alike of another kind; p3 are alike of third kind and so on and pr are alike of rth kind, 
+such that (p1 + p2 + ... pr) = n.<br>
+
+Then, number of permutations of these n objects is =n!/(p1!).(p2)!.....(pr!)<br>
+Combinations:<br>
+
+Each of the different groups or selections which can be formed by taking some or all of a number of objects is called a combination.<br>
+
+Examples:<br>
+
+Suppose we want to select two out of three boys A, B, C. Then, possible selections are AB, BC and CA.<br>
+
+Note: AB and BA represent the same selection.<br>
+
+All the combinations formed by a, b, c taking ab, bc, ca.<br>
+
+The only combination that can be formed of three letters a, b, c taken all at a time is abc.<br>
+
+Various groups of 2 out of four persons A, B, C, D are:<br>
+
+AB, AC, AD, BC, BD, CD.<br>
+
+Note that ab ba are two different permutations but they represent the same combination.<br>
+
+Number of Combinations:<br>
+
+The number of all combinations of n things, taken r at a time is:<br>
+
+nCr =	n!	=	n(n - 1)(n - 2) ... to r factors/	.
+(r!)(n - r)!r!<br>
+
+		</p>
+		<span style="color:red"><h6 align ="center"><b><a href="permutationandcombinationquestion.html">Take Test</a></b></h6></span>
+	</body>
+</html>

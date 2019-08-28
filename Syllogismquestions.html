@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<title>Questions on Syllogism</title>
+	</head>
+	<body style="background-color: cornsilk" >
+	<h3><b>Questions based on syllogism</b></h3>
+		<form name="myform">
+Q1.Statements: <br>Some actors are singers. <br>All singers are dancers.<br>
+Conclusions:<br>
+1. Some actors are dancers.<br>
+2. No singer is actor. <br>
+<input type="radio" name="q1" value="a">Only conclusion 1 follows<br>
+<input type="radio" name="q1" value="b">Only conclusion 2 follows<br>
+<input type="radio" name="q1" value="c">Both 1 and 2 follows<br><br>
+Q2.Statements: <br>Some fruits are mangos.<br> All mangos are <br>guavas. No guava is a banana.<br>
+Conclusions:<br>
+1. All guavas are fruits.<br>
+2. Some guavas are fruits.	<br>
+<input type="radio" name="q2" value="a">Neither conclusion 1 nor conclusion 2<br>
+<input type="radio" name="q2" value="b">Only conclusion 2 follows.<br>
+<input type="radio" name="q2" value="c">Only conclusion 1 follows.<br>
+Q3. Statements: <br>All cocks are frogs. <br>All cakes are jugs. <br>Some cakes are cocks.<br>
+Conclusion:<br>
+1. Some jugs are cocks<br>
+2. Some frogs are jugs<br>
+3. Some cocks are jugs <br>
+<input type="radio" name="q3" value="a">Only conclusions 1 and 2 follow.</br>
+<input type="radio" name="q3" value="b">All 3 conclusions follow.</br>
+<input type="radio" name="q3" value="c">Only conclusion 1 follows.</br><br>
+Q4.Statements: <br>Some Cats are Rats.<br> All bats are tables. <br>All Rats are Bats.<br>
+Conclusion:<br>
+1. Some Cats are bats.<br>
+2. All bats are rats.<br>
+3. All tables are cats.<br>
+4. All bats are cats. <br>
+<input type="radio" name="q4" value="a">None of these conclusions follow.</br>
+<input type="radio" name="q4" value="b">Only 1 and 2 follow.</br>
+<input type="radio" name="q4" value="c">Only 3 and 4 follow.</br><br>
+Q5.Statements: All fish are birds.<br> Some hens are fish.<br>
+Conclusion:<br>
+1. Some hens are birds.<br>
+2. No birds are hens.<br>
+<input type="radio" name="q5" value="a">None of the conclusions follow.</br>
+<input type="radio" name="q5" value="b">Only conclusion 2 follows.</br>
+<input type="radio" name="q5" value="c">Only conclusion 1 follows.</br><br>
+Q6.. Statement:<br>
+All heros are Zeros<br>
+All Zeros are villains<br>
+Some heroes are jokers<br>
+Conclusion:<br>
+I ) Some Jokers are heroes<br>
+II) Some Zeros are jokers<br>
+III) Some villains are <br>
+<input type="radio" name="q6" value="a">All I,II,III follows.
+</br>
+<input type="radio" name="q6" value="b">Only conclusion 2 follows.</br>
+<input type="radio" name="q6" value="c">Only conclusion 1 follows.</br><br>
+Q7.Statements :<br>
+All desks are rooms<br>
+Some rooms are halls.<br>
+All halls are leaves.<br>
+Conclusions:<br>
+I)Some leaves are desks<br>
+II)Some halls are desks<br>
+III)Some leaves are rooms <br>
+<input type="radio" name="q7" value="a">Only II follows.</br>
+<input type="radio" name="q7" value="b">Only II and III follows.</br>
+<input type="radio" name="q7" value="c">Only III follows.</br><br>
+Q8.Statement :<br>
+Some glasses are spoons<br>
+Some jugs are spoons.<br>
+Conclusions:<br>
+I) All Jugs being glasses is a possibility .<br>
+II) Some spoons are Jugs <br>
+<input type="radio" name="q8" value="a">If both the conclusions follows.</br>
+<input type="radio" name="q8" value="b">If only conclusion II follows.</br>
+<input type="radio" name="q8" value="c"> If either Conclusion I or Conclusion II follows.</br><br>
+Q9.Statement :<br>
+I) No colour is a paint<br>
+II) No paint is a brush.<br>
+Conclusions :<br>
+I) No colour is a brush.<br>
+II) All Brushes are colours.<br>
+<input type="radio" name="q9" value="a">If both the conclusions follows.</br>
+<input type="radio" name="q9" value="b">If neither Conclusion I nor Conclusion II follows.</br>
+<input type="radio" name="q9" value="c"> If only conclusion I follows.</br><br>
+Q10.Statements:<br>
+All bulbs are wires.<br>
+No wire is cable. <br>
+Some cables are paints.<br>
+Conclusions:<br>
+I. Some paints are cables.<br>
+II. Some wires are bulbs.<br>
+III. Some brushes are wires.<br>
+IV. Some cables are bulbs.<br>
+
+<input type="radio" name="q10" value="a">Only III follows.</br>
+<input type="radio" name="q10" value="b">None of these.</br>
+<input type="radio" name="q10" value="c">Only I and II follow.</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+     
+    if(q1=="a")
+		c++;
+	if(q2=="b")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="a")
+		c++;
+	if(q5=="c")
+		c++;
+    if(q6=="a")
+		c++;
+	if(q7=="c")
+		c++;
+	if(q8=="a")
+		c++;
+	if(q9=="b")
+		c++;
+	if(q10=="c")
+		c++;
+    
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

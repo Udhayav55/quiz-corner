@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on Synonyms </title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on synonyms</b></h3>
+		<form name="myform">
+Q1.What is the synonym of rabble? <br>
+<input type="radio" name="q1" value="a">fragrance </br>
+<input type="radio" name="q1" value="b">trust </br>
+<input type="radio" name="q1" value="c">admiration </br><br>
+Q2.What is the synonym of herd? <br>
+<input type="radio" name="q2" value="a">group</br>
+<input type="radio" name="q2" value="b">hurdles</br>
+<input type="radio" name="q2" value="c">heard</br><br>
+Q3.What is the synonym of bargain? <br>
+<input type="radio" name="q3" value="a">negotiation</br>
+<input type="radio" name="q3" value="b">misunderstand</br>
+<input type="radio" name="q3" value="c">ripoff</br><br>
+Q4.What is the synonym of important?<br>
+<input type="radio" name="q4" value="a">chief</br>
+<input type="radio" name="q4" value="b">minor</br>
+<input type="radio" name="q4" value="c">dull</br><br>
+Q5.What is the synonym of eminent? <br>
+<input type="radio" name="q5" value="a">famed</br>
+<input type="radio" name="q5" value="b">obscure</br>
+<input type="radio" name="q5" value="c">grand</br><br>
+Q6.What is the synonym of embezzle? <br>
+<input type="radio" name="q6" value="a">balance</br>
+<input type="radio" name="q6" value="b">misappropriate</br>
+<input type="radio" name="q6" value="c">clear</br><br>
+Q7.What is the synonym of restraint? <br>
+<input type="radio" name="q7" value="a">hindrance</br>
+<input type="radio" name="q7" value="b">obstacle</br>
+<input type="radio" name="q7" value="c">restriction</br><br>
+Q8.What is the synonym of cantankerous? <br>
+<input type="radio" name="q8" value="a">quarrelsome</br>
+<input type="radio" name="q8" value="b">disrespectful</br>
+<input type="radio" name="q8" value="c">noisy</br><br>
+Q9.What is the synonym of gracious?<br>
+<input type="radio" name="q9" value="a">pleasant</br>
+<input type="radio" name="q9" value="b">pretty</br>
+<input type="radio" name="q9" value="c">clever</br><br>
+Q10.What is the synonym of predict? <br>
+<input type="radio" name="q10" value="a">decide</br>
+<input type="radio" name="q10" value="b">discover</br>
+<input type="radio" name="q10" value="c">foretell</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+    if(q1=="c")
+		c++;
+	if(q2=="a")
+		c++;
+	if(q3=="a")
+		c++;
+	if(q4=="a")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="b")
+		c++;
+	if(q7=="c")
+		c++;
+	if(q8=="a")
+		c++;
+	if(q9=="a")
+		c++;
+	if(q10=="c")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

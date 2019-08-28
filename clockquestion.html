@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>Questions on Clocks</title>
+	</head>
+	<body style="background-color: cornsilk" >
+	<h3><b>Questions based on clocks</b></h3>
+		<form name="myform">
+Q1.What is the angle between the hands of a clock at 7:20? <br>
+<input type="radio" name="q1" value="a">100 degrees</br>
+<input type="radio" name="q1" value="b">220 degrees</br>
+<input type="radio" name="q1" value="c">120 degrees</br><br>
+Q2.Find the reflex angle between the hands of a clock at 05.30? <br>
+<input type="radio" name="q2" value="a">20 degrees</br>
+<input type="radio" name="q2" value="b">15 degrees</br>
+<input type="radio" name="q2" value="c">25 degrees</br><br>
+Q3.In 16 minutes, the minute hand gains over the hour hand by how many degrees? <br>
+<input type="radio" name="q3" value="a">16 degrees</br>
+<input type="radio" name="q3" value="b">88 degrees</br>
+<input type="radio" name="q3" value="c">80 degrees</br><br>
+Q4.At what time between 7 and 8 O'clock hands of a clock be in the same straight line but, not together? <br>
+<input type="radio" name="q4" value="a">5 minutes past 7</br>
+<input type="radio" name="q4" value="b">5 2/11 minutes past 7</br>
+<input type="radio" name="q4" value="c">5 5/11 minutes past 7</br><br>
+Q5.An accurate clock shows 8 o'clock in the morning. Through how may degrees will the hour hand rotate when the clock shows 2 o'clock in the afternoon? <br>
+<input type="radio" name="q5" value="a">180 degrees</br>
+<input type="radio" name="q5" value="b">360 degrees</br>
+<input type="radio" name="q5" value="c">90 degrees</br><br>
+Q6.A clock is started at noon.By 10 minutes past 5, the hour hand has turned through<br>
+<input type="radio" name="q6" value="a">145 degrees</br>
+<input type="radio" name="q6" value="b">155degrees</br>
+<input type="radio" name="q6" value="c">150 degrees</br><br>
+Q7.The reflex angle between the hands of aclock at 10:25 is<br>
+<input type="radio" name="q7" value="a">64 degrees</br>
+<input type="radio" name="q7" value="b">58.5 degrees</br>
+<input type="radio" name="q7" value="c">197.5 degrees</br><br>
+Q8.How many times in a day,the hands of a clock are straight?<br>
+<input type="radio" name="q8" value="a">44</br>
+<input type="radio" name="q8" value="b">22 </br>
+<input type="radio" name="q8" value="c">24</br><br>
+Q9.How many times in a day,the hands of a clock coincide in a day?<br>
+<input type="radio" name="q9" value="a">22</br>
+<input type="radio" name="q9" value="b">44 degrees</br>
+<input type="radio" name="q9" value="c"24 degrees</br><br>
+Q10.The angle between the minute hand and hour hand of a clock when the time is 4.20,is<br>
+<input type="radio" name="q10" value="a">0 degrees</br>
+<input type="radio" name="q10" value="b">10 degrees</br>
+<input type="radio" name="q10" value="c">20 degrees</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+    
+    
+  if(q1=="a")
+		c++;
+	if(q2=="b")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="c")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="b")
+        c++;
+    if(q7=="c")
+        c++;
+    if(q8=="a")
+       c++;
+    if(q9=="a")
+      c++;
+    if(q10=="b")
+        c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

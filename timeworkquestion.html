@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<title>Questions on time and work </title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on Time and Work</b></h3>
+		<form name="myform">
+Q1.A and B complete a work in 6 days. A alone can do it in 10 days. If both together can do the work in how many days?<br>
+<input type="radio" name="q1" value="a">3.75 days</br>
+<input type="radio" name="q1" value="b">4 days</br>
+<input type="radio" name="q1" value="c">5 days</br><br>
+Q2.A and B together can do a piece of work in 8 days. If A alone can do the same work in 12 days, then B alone can do the same work in?<br>
+<input type="radio" name="q2" value="a">20 days</br>
+<input type="radio" name="q2" value="b">24 days</br>
+<input type="radio" name="q2" value="c">28 days</br><br>
+Q3.A can do a piece of work in 4 days. B can do it in 5 days. With the assistance of C they completed the work in 2 days. Find in how many days can C alone do it?<br>
+<input type="radio" name="q3" value="a">10 days</br>
+<input type="radio" name="q3" value="b">20 days</br>
+<input type="radio" name="q3" value="c">5 days</br><br>
+Q4.A and B can do a piece of work in 6 2/3 days and 5 days respectively. They work together for 2 days and then A leaves. In how many days after that B will complete the work alone. <br>
+<input type="radio" name="q4" value="a">1.5 days</br>
+<input type="radio" name="q4" value="b">2 days</br>
+<input type="radio" name="q4" value="c"> 3 days</br><br>
+Q5.A can do a piece of work in 30 days. He works at it for 5 days and then B finishes it in 20 days. In what time can A and B together it?<br>
+<input type="radio" name="q5" value="a">13.5 days</br>
+<input type="radio" name="q5" value="b">16.5 days</br>
+<input type="radio" name="q5" value="c">18.5 days</br><br>
+Q6.A can do a piece of work in 12 days. When he had worked for 2 days B joins him. If the complete work was finished in 8 days. In how many days B alone can finish the work?<br>
+<input type="radio" name="q6" value="a">18 days</br>
+<input type="radio" name="q6" value="b">12 days</br>
+<input type="radio" name="q6" value="c">24 days</br><br>
+Q7.A and B together can do a work in 6 days. If A alone can do it in 15 days. In how many days can B alone do it?<br>
+<input type="radio" name="q7" value="a">15</br>
+<input type="radio" name="q7" value="b">10</br>
+<input type="radio" name="q7" value="c">12</br><br>
+Q8.A is thrice as efficient as B and is, therefore, able to finish a piece of work 10 days earlier than B. In how many days A and B will finish it together?<br>
+<input type="radio" name="q8" value="a">2 days</br>
+<input type="radio" name="q8" value="b">4 days</br>
+<input type="radio" name="q8" value="c">5 days</br><br>
+Q9.A, B and C can do a piece of work in 7 days, 14 days and 28 days respectively. How long will they taken, if all the three work together?<br>
+<input type="radio" name="q9" value="a">3 days</br>
+<input type="radio" name="q9" value="b">5 days</br>
+<input type="radio" name="q9" value="c">4 days</br><br>
+Q10.A is twice as good a work man as B and together they finish the work in 14 days. In how many days A alone can finish the work?<br>
+<input type="radio" name="q10" value="a">23</br>
+<input type="radio" name="q10" value="b">20</br>
+<input type="radio" name="q10" value="c">21</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="a")
+		c++;
+	if(q2=="b")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="a")
+		c++;
+	if(q5=="a")
+		c++;
+    if(q6=="a")
+		c++;
+	if(q7=="b")
+		c++;
+	if(q8=="c")
+		c++;
+	if(q9=="c")
+		c++;
+	if(q10=="c")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

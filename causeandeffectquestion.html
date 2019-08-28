@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>Questions on Cause and Effect</title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on cause and effect</b></h3>
+		<form name="myform">
+Q1.Statements:<br>
+1. Standard of living among the middle class society is constantly going up since part of few years.<br>
+2. Indian Economy is observing remarkable growth. <br>
+<input type="radio" name="q1" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q1" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q1" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q2.Statements:<br>
+1. Large numbers of people have fallen sick after consuming sweets from a particular shop in the locality.<br>
+2. Major part of the locality is flooded and has become inaccessible to outsides. <br>
+<input type="radio" name="q2" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q2" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q2" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q3.Statements:<br>
+1. The farmers have decided against selling their kharif crops to the Government agencies.<br>
+2. The Government has reduced the procurement price of kharif crops starting from last month to the next six months. <br>
+<input type="radio" name="q3" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q3" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q3" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q4. Statements:<br>
+1. The government has recently fixed the fees for professional courses offered by the unaided institutions which are much lower than the fees charged last year.<br>
+2. The parents of the aspiring students launched a severe agitation last year protesting against the high fees charged by the unaided institutions.<br>
+<input type="radio" name="q4" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q4" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q4" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q5.Statements:<br>
+1. The Government has increased rates of petrol and diesel by 10% from the immediate effect.<br>
+2. Oil producing countries have decided to increase 10% of production on crude oil from the last quarter. <br>
+<input type="radio" name="q5" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q5" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q5" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q6.Statements:<br>
+1. The prices of petrol and diesel in the domestic market have remained unchanged for the past few months.<br>
+2. The crude oil prices in the international market have gone up substantially in the last few months.<br>
+<input type="radio" name="q6" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q6" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q6" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q7.Statements:<br>
+1. All the schools in the area had to be kept closed for most part of the week.<br>
+2. Many parents have withdrawn their children from the local schools.<br>
+<input type="radio" name="q7" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q7" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q7" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q8.Statements:<br>
+1. There is unprecedented increase in the number of young unemployed in comparison to the previous year.<br>
+2. A large number of candidates submitted applications against an advertisement for the post of manager issued by a bank.<br>
+<input type="radio" name="q8" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q8" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q8" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q9.Statements:<br>
+1. The private medical colleges have increased the tuition fees in the current year by 200 per cent over the last year's fees to meet the expenses.<br>
+2. The Government medical colleges have not increased their fees in spite of price escalation.<br>
+<input type="radio" name="q9" value="a">Statement 1 is the cause and statement 2 is its effect.</br>
+<input type="radio" name="q9" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q9" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+Q10.Statements:<br>
+1. Large number of people living in the low-lying areas has been evacuated during the last few days to safer places.<br>
+2. The Government has rushed in relief supplies to the people living in the affected areas<br>
+<input type="radio" name="q10" value="a">Both the statements I and II are effects of some common cause.</br>
+<input type="radio" name="q10" value="b">Statement 2 is the cause and statement 1 is its effect.</br>
+<input type="radio" name="q10" value="c">Both the statements 1 and 2 are effects of independent causes.</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+  if(q1=="a")
+		c++;
+	if(q2=="c")
+		c++;
+	if(q3=="b")
+		c++;
+	if(q4=="b")
+		c++;
+	if(q5=="c")
+		c++;
+    if(q6=="c")
+		c++;
+	if(q7=="c")
+		c++;
+	if(q8=="a")
+		c++;
+	if(q9=="c")
+		c++;
+	if(q10=="a")
+		c++;
+ alert("your score is "+c);
+}
+
+</script>
+</body>
+</html>

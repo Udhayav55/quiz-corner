@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>Questions on Idioms and Phrases </title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on idioms and phrases </b></h3>
+		<form name="myform">
+Q1.To have brush with<br>
+<input type="radio" name="q1" value="a">To have a slight encounter</br>
+<input type="radio" name="q1" value="b">To be impressed</br>
+<input type="radio" name="q1" value="c">To start painting</br><br>
+Q2.Hard-Pressed<br>
+<input type="radio" name="q2" value="a">Bewildered</br>
+<input type="radio" name="q2" value="b">In difficulties</br>
+<input type="radio" name="q2" value="c">Hard discipline</br><br>
+Q3.To run amuck<br>
+<input type="radio" name="q3" value="a">To run a race</br>
+<input type="radio" name="q3" value="b">To run to somebody’s help</br>
+<input type="radio" name="q3" value="c">To run about in frenzy</br><br>
+Q4.To blaze tail<br>
+<input type="radio" name="q4" value="a">To inititate work in a movement</br>
+<input type="radio" name="q4" value="b">To set on fire</br>
+<input type="radio" name="q4" value="c">To vehemently oppose</br><br>
+Q5.To blow hot and cold<br>
+<input type="radio" name="q5" value="a">Changing weather</br>
+<input type="radio" name="q5" value="b">To be inconsistent</br>
+<input type="radio" name="q5" value="c">To be rich and poor frequently</br><br>
+Q6.To haul over the coals <br>
+<input type="radio" name="q6" value="a">To put hand in a wrong task</br>
+<input type="radio" name="q6" value="b">To say the wrong words</br>
+<input type="radio" name="q6" value="c">To put to task</br><br>
+Q7.To carry off the bell<br>
+<input type="radio" name="q7" value="a">To bag the first position</br>
+<input type="radio" name="q7" value="b">To call others for help</br>
+<input type="radio" name="q7" value="c">To steal all wealth and flee</br><br>
+Q8.To wrangle over an ass’s shadow<br>
+<input type="radio" name="q8" value="a">To act in a foolish way</br>
+<input type="radio" name="q8" value="b">To quarrel over trifles</br>
+<input type="radio" name="q8" value="c">To do something funny</br><br>
+Q9.To cast pearls before a swine<br>
+<input type="radio" name="q9" value="a">To spend recklessly</br>
+<input type="radio" name="q9" value="b">To spend a lot of money on the unkeep of domestic hogs</br>
+<input type="radio" name="q9" value="c">To offer to a person a thing which he cannot appreciate</br><br>
+Q10.A tall order<br>
+<input type="radio" name="q10" value="a">A task difficult to perform</br>
+<input type="radio" name="q10" value="b">A big demand</br>
+<input type="radio" name="q10" value="c">A bid problem</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+    if(q1=="a")
+		c++;
+	if(q2=="b")
+		c++;
+	if(q3=="c")
+		c++;
+	if(q4=="a")
+		c++;
+	if(q5=="b")
+		c++;
+    if(q6=="c")
+		c++;
+	if(q7=="a")
+		c++;
+	if(q8=="b")
+		c++;
+	if(q9=="c")
+		c++;
+	if(q10=="a")
+		c++;
+ alert("your score is "+c);
+}
+</script>
+</body>
+</html>

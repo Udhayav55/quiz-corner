@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Questions on Series</title>
+</head>
+
+<body style="background-color: cornsilk">
+    <h3><b>Questions based on series</b></h3>
+    <form name="myform">
+        Q1.Which number should come next in this series 36, 34, 30, 28, 24, ...? <br>
+        <input type="radio" name="q1" value="a">20</br>
+        <input type="radio" name="q1" value="b">23</br>
+        <input type="radio" name="q1" value="c">22</br><br> Q2.SCD, TEF, UGH, ____, WKL <br>
+        <input type="radio" name="q2" value="a">UJI</br>
+        <input type="radio" name="q2" value="b">CMN</br>
+        <input type="radio" name="q2" value="c">VIJ</br><br> Q3.Find odd number from series 8,27,64,100,125,216,343. <br>
+        <input type="radio" name="q3" value="a">100</br>
+        <input type="radio" name="q3" value="b">27</br>
+        <input type="radio" name="q3" value="c">125</br><br> Q4.6, 11, 21, 36, 56, ? which number will replace the question mark in the series ? <br>
+        <input type="radio" name="q4" value="a">75</br>
+        <input type="radio" name="q4" value="b">81</br>
+        <input type="radio" name="q4" value="c">89</br><br> Q5.45, 54, 47,?, 49, 56, 51, 57, 53. Which number will replace the question mark? <br>
+        <input type="radio" name="q5" value="a">48</br>
+        <input type="radio" name="q5" value="b">55</br>
+        <input type="radio" name="q5" value="c">53</br><br> Q6.4, 6, 9, 13,.....? which number will replace the question mark in the series<br>
+        <input type="radio" name="q6" value="a">15</br>
+        <input type="radio" name="q6" value="b">18</br>
+        <input type="radio" name="q6" value="c">12</br><br> Q7. 8, 20, 36, 56,? which number will replace the question mark in the series<br>
+        <input type="radio" name="q7" value="a">80</br>
+        <input type="radio" name="q7" value="b">100</br>
+        <input type="radio" name="q7" value="c">64</br><br> Q8.11, 33, 55, 77,? which number will replace the question mark in the series<br>
+        <input type="radio" name="q8" value="a">88</br>
+        <input type="radio" name="q8" value="b">121</br>
+        <input type="radio" name="q8" value="c">99</br><br> 
+        Q9.1, 8, 4, 27, 9, ? which number will replace the question mark in the series<br>
+        <input type="radio" name="q9" value="a">16</br>
+        <input type="radio" name="q9" value="b">64</br>
+        <input type="radio" name="q9" value="c">9</br><br> Q10.3,6,8,16,18,? which number will replace the question mark in the series<br>
+        <input type="radio" name="q10" value="a">28</br>
+        <input type="radio" name="q10" value="b">36</br>
+        <input type="radio" name="q10" value="c">64</br><br>
+
+        <input type="button" value="Submit" onclick=check()>
+    </form>
+    <script>
+        function check() {
+            var c = 0;
+
+            var q1 = document.myform.q1.value;
+            var q2 = document.myform.q2.value;
+            var q3 = document.myform.q3.value;
+            var q4 = document.myform.q4.value;
+            var q5 = document.myform.q5.value;
+            var q6 = document.myform.q6.value;
+            var q7 = document.myform.q7.value;
+            var q8 = document.myform.q8.value;
+            var q9 = document.myform.q9.value;
+            var q10 = document.myform.q10.value;
+            if (q1 =="c")
+                c++;
+            if (q2 =="c")
+                c++;
+            if (q3=="a")
+                c++;
+            if (q4=="b")
+                c++;
+            if (q5=="b")
+                c++;
+            if (q6=="b")
+                c++;
+            if (q7=="a")
+                c++;
+            if (q8=="c")
+                c++;
+            if (q9=="b")
+                c++;
+            if (q10=="b")
+                c++;
+            alert("your score is " + c);
+        }
+
+    </script>
+</body>
+</html>

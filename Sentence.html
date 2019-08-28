@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<title>Questions on Sentence Correction </title>
+	</head>
+	<body style="background-color: cornsilk">
+	<h3><b>Questions based on  sentence correction</b></h3>
+		<form name="myform">
+Q1.The small child does whatever his father --was done--.<br>
+<input type="radio" name="q1" value="a">has done</br>
+<input type="radio" name="q1" value="b">does</br>
+<input type="radio" name="q1" value="c">did</br><br>
+Q2.He is too important --for tolerating-- any delay.<br>
+<input type="radio" name="q2" value="a">at tolerating</br>
+<input type="radio" name="q2" value="b">to tolerate</br>
+<input type="radio" name="q2" value="c">to tolerating</br><br>
+Q3.One of the most significant --phenomenons-- of our time has been the development of cinema.<br>
+<input type="radio" name="q3" value="a">phenomena</br>
+<input type="radio" name="q3" value="b">phenomenonna</br>
+<input type="radio" name="q3" value="c">phenomenon</br><br>
+Q4.The courts --are actively to safeguard-- the interests and the rights of the poor.<br>
+<input type="radio" name="q4" value="a">have been actively safeguarding</br>
+<input type="radio" name="q4" value="b">are actively to safeguarding</br>
+<input type="radio" name="q4" value="c">have to active in safeguarding</br><br>
+Q5.The train will leave at 8.30 pm, we --have been-- ready by 7.30pm so that, we can reach the station in time.<br>
+<input type="radio" name="q5" value="a">were</br>
+<input type="radio" name="q5" value="b">must be</br>
+<input type="radio" name="q5" value="c">are</br><br>
+Q6.Ramesh is --as tall if not--, taller than Mahesh.<br>
+<input type="radio" name="q6" value="a">not so tall but as</br>
+<input type="radio" name="q6" value="b">as tall as, if not</br>
+<input type="radio" name="q6" value="c">not as tall but</br><br>
+Q7.The easiest --of the thing to do-- is to ask the address to the postman.<br>
+<input type="radio" name="q7" value="a">of the things to do</br>
+<input type="radio" name="q7" value="b">of the thing to be done</br>
+<input type="radio" name="q7" value="c">among the things did</br><br>
+Q8.We met him immediately after the session in which he --had been given-- a nice speech.<br>
+<input type="radio" name="q8" value="a">had given</br>
+<input type="radio" name="q8" value="b">has been given</br>
+<input type="radio" name="q8" value="c">will have given</br><br>
+Q9.Because of his ill health, the doctor has advised him --not to refrain from-- smoking.<br>
+<input type="radio" name="q9" value="a">to not refrain from</br>
+<input type="radio" name="q9" value="b">to resort to</br>
+<input type="radio" name="q9" value="c">to refrain from</br><br>
+Q10.No sooner --do the bells ring-- than the curtain rose.<br>
+<input type="radio" name="q10" value="a">did the bells ring</br>
+<input type="radio" name="q10" value="b">had the bell rang</br>
+<input type="radio" name="q10" value="c">did the bell ring</br><br>
+
+<input type="button" value="Submit" onclick=check()>
+</form>
+<script>
+  
+ function check(){
+var c=0;
+  
+  var q1=document.myform.q1.value;
+  var q2=document.myform.q2.value;
+  var q3=document.myform.q3.value;
+  var q4=document.myform.q4.value;
+  var q5=document.myform.q5.value;
+  var q6=document.myform.q6.value;
+  var q7=document.myform.q7.value;
+  var q8=document.myform.q8.value;
+  var q9=document.myform.q9.value;
+  var q10=document.myform.q10.value;
+    if(q1=="b")
+		c++;
+	if(q2=="b")
+		c++;
+	if(q3=="a")
+		c++;
+	if(q4=="a")
+		c++;
+	if(q5=="b")
+		c++;
+    if(q6=="b")
+		c++;
+	if(q7=="a")
+		c++;
+	if(q8=="a")
+		c++;
+	if(q9=="c")
+		c++;
+	if(q10=="c")
+		c++;
+ alert("your score is "+c);
+}
+</script>
+</body>
+</html>
